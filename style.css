@@ -1,0 +1,15 @@
+/* style.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Add some soft shadow to the card */
+.card {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Smooth transitions */
+button, input {
+  transition: all 0.3s ease;
+}
