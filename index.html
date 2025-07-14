@@ -1,11 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Welcome to Quinx</title>
+  <meta charset="UTF-8">
+  <title>Quinx Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello, this is Quinx!</h1>
-  <p>Join our Discord: <a href="https://discord.gg/SKYuJz9SKz">Quinx</a></p>
+
+  <div class="navbar">
+    <div class="logo">Quinx Store</div>
+    <a href="https://discord.gg/SKYuJz9SKz" target="_blank" class="discord-btn">Join Discord</a>
+  </div>
+
+  <div class="main-content">
+    <h1>👷‍♂️ Store Under Development</h1>
+    <p>Our Minecraft store is coming soon. Join our Discord to stay updated!</p>
+    <div class="ip-bar" onclick="copyIP()">IP: play.quinx.fun</div>
+    <div class="copied-msg" id="copied">Copied!</div>
+  </div>
+
+  <footer>
+    © 2025 Quinx. All rights reserved.
+  </footer>
+
+  <script>
+    function copyIP() {
+      navigator.clipboard.writeText("play.quinx.fun");
+      const msg = document.getElementById("copied");
+      msg.style.opacity = 1;
+      setTimeout(() => msg.style.opacity = 0, 1500);
+    }
+  </script>
+
 </body>
 </html>
