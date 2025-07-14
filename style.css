@@ -1,8 +1,32 @@
-/* Full-screen purple background */
+/* Background image full screen */
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #4b0082, #8a2be2); /* dark to rich purple */
+  background: url('download.jpg') no-repeat center center fixed;
+  background-size: cover;
   height: 100vh;
-  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Logo float animation */
+.logo-container {
+  animation: float 3s ease-in-out infinite;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+/* Floating keyframes */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
 }
