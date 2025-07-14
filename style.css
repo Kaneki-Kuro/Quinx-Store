@@ -1,15 +1,11 @@
-/* style.css */
-
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #111;
+  color: #fff;
+  font-family: Arial;
+  text-align: center;
+  margin-top: 50px;
 }
-
-/* Add some soft shadow to the card */
-.card {
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-}
-
-/* Smooth transitions */
-button, input {
-  transition: all 0.3s ease;
+a {
+  color: #00bfff;
+  text-decoration: none;
 }
