@@ -1,32 +1,35 @@
-/* Background image full screen */
+/* Full-screen purple Minecraft background */
 body {
   margin: 0;
   padding: 0;
-  background: url('download.jpg') no-repeat center center fixed;
+  background-image: url('download.jpg');
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+  width: 100vw;
 }
 
-/* Logo float animation */
+/* Logo position and float */
 .logo-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
   animation: float 3s ease-in-out infinite;
 }
 
 .logo {
-  width: 200px;
+  width: 100px;
   height: auto;
 }
 
-/* Floating keyframes */
+/* Floating animation */
 @keyframes float {
   0%, 100% {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-20px);
+    transform: translateY(-10px);
   }
 }
