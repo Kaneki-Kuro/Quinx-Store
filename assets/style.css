@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0f0f1a;
+  color: #ffffff;
+}
+header {
+  background: #6c3acc;
+  padding: 1rem;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+}
+nav a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+main {
+  padding: 2rem;
+  text-align: center;
+}
+footer {
+  background: #1a1a2e;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.hero {
+  padding: 3rem 1rem;
+}
+.btn {
+  background: #8c52ff;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  display: inline-block;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+.product {
+  background: #1f1f30;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  max-width: 500px;
+  border-radius: 10px;
+}
